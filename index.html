@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="auth-form">
+          <div class="field">
+            <span>Name:</span>
+            <input
+              type="text"
+              placeholder="enter your name"
+              class="task-inputName task-input"
+            />
+          </div>
+          <div class="field">
+            <span>email:</span>
+            <input
+              type="text"
+              placeholder="enter your email"
+              class="task-inputEmail task-input"
+            />
+          </div>
+          <div class="field">
+            <span>ImageUrl:</span>
+            <input
+              type="text"
+              placeholder="enter Image Url"
+              class="task-inputImageUrl task-input"
+            />
+          </div>
+          <div class="field">
+            <span>Phone:</span>
+            <input
+              type="text"
+              placeholder="enter your phone number"
+              class="task-inputPhone task-input"
+            />
+          </div>
+
+          <div class="field"><button class="btn">Send</button></div>
+        </div>
+      </div>
+      <div class="container">
+        <ul class="task-list"></ul>
+      </div>
+    </div>
+    <div class="main-modal" id="modalka">
+      <div class="inner-modal">
+        <div class="close"></div>
+        <div class="modalsInput">
+          <h3>data editing</h3>
+          <input type="text" class="inp-editName inputAll" />
+          <input type="email" class="inp-editEmail inputAll" />
+          <input type="url" class="inp-editImageUrl inputAll" />
+          <input type="phone" class="inp-editPhone inputAll" />
+        </div>
+
+        <button class="btn-save">Save</button>
+        <button class="btn-closer">Close</button>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

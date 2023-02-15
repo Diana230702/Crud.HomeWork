@@ -1,0 +1,142 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background: #fff url(http://mortwood.by/upload/1369733755-copy.jpg);
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container:first-child {
+  text-align: center;
+}
+
+.auth-form {
+  display: inline-block;
+  margin: auto;
+  padding: 2rem;
+  background-color: beige;
+  border-radius: 15px;
+  text-align: right;
+}
+
+.field input {
+  border: 0;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 10px;
+  color: beige;
+  background-color: rgb(58, 158, 158);
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: rgb(25, 77, 77);
+  transition: 0.5s;
+}
+
+.field:last-child {
+  text-align: center;
+}
+
+.task-input {
+  margin: 10px;
+  width: 300px;
+}
+
+/* modal */
+.main-modal {
+  position: fixed;
+  top: 170px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: transparent;
+  display: none;
+  width: 500px;
+  margin: auto;
+  margin-top: 16px;
+  height: 310px;
+  border-radius: 10px;
+}
+
+.inner-modal {
+  width: 500px;
+  height: 200px;
+  background-color: #fff;
+  margin: auto;
+  text-align: center;
+  /* background-color: beige; */
+  background: transparent;
+}
+
+.close {
+  text-align: end;
+}
+
+.main-modal {
+  display: none;
+}
+
+.inputAll {
+  width: 300px;
+  height: 23px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-save {
+  margin-top: 1rem;
+  padding: 10px;
+  color: beige;
+  background-color: rgb(58, 158, 158);
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 10px;
+}
+
+.btn-save:hover {
+  background-color: rgb(25, 77, 77);
+  transition: 0.5s;
+}
+
+.btn-closer:hover {
+  background-color: rgb(25, 77, 77);
+  transition: 0.5s;
+}
+
+.btn-closer {
+  margin-top: 1rem;
+  padding: 10px;
+  color: beige;
+  background-color: rgb(58, 158, 158);
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-left: 1rem;
+}
+
+h3 {
+  color: beige;
+}
